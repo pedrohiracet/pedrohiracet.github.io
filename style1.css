@@ -1,0 +1,54 @@
+.titulo1{
+    font-size: 130%;
+}
+
+.subtitulo{
+    font-size: 100%;
+    color: rgb(100, 91, 91);
+}
+
+.thumb{
+    background-size: cover; 
+    height: 140px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end;
+    flex-direction: column;
+}
+
+#thumb1{
+    background-image: url('thumb1.webp');
+}
+
+#thumb2{
+    background-image: url('thumb2.webp');
+}
+
+#thumb3{
+background-image: url('thumb3.webp');
+}
+
+#thumb4{
+    background-image: url('thumb4.webp');
+}
+
+.titulo{
+    font-size: 100%;
+}
+.info{
+    color: rgb(100, 91, 91);
+    font-family:inherit ;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+}
+
+
+.info1{
+font-size: 100%;
+color: rgb(100, 91, 91);
+}

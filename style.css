@@ -1,0 +1,80 @@
+body{
+    background-color: #0f0f0f;
+    font-family: 'Roboto';
+}
+
+.cards{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.card:hover .itens{
+    display: flex;
+}
+
+.card:hover .tempo{
+    display: none;
+}
+
+.card:hover .thumb{
+    justify-content: flex-start;
+}
+
+.thumb{
+    background-size: cover; 
+    background-position: top;
+    height: 140px;
+    width: 250px;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end;
+    flex-direction: column;
+
+}
+
+#thumb1{
+    background-image: url('baixados.jpg');
+}
+
+
+
+.tempo{
+    background-color:rgba(0, 0, 0, 0.5);
+    margin: 3px;
+    padding:3px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.titulo{
+    font-size: 14px;
+    width: 250px;
+}
+
+.info{
+    color: lightgray;
+    font-size: 11px;
+}
+
+.itens{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    display: none;
+}
+
+.item{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:4px;
+    font-size: 12px;
+    border-radius: 5px;
+}
