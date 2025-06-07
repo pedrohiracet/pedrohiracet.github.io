@@ -13,14 +13,14 @@
             <img src="logo adidas.png" alt="">
             <div>BABUINOS</div>
         </div>
-        <a href="">Calçados</a>
-       <a href="">Mulher</a>
-       <a href="">Homem</a>
-       <a href="">Infantil</a>
-       <a href="">Esportes</a>
-       <a href="">Mundo Adidas</a>
-       <a href="">Dia dos namorados</a>
+        <a href="" class="Calçados">Calçados</a>
+       <a href=""class="Calçados">Mulher</a>
+       <a href=""class=Calçados>Homem</a>
+       <a href=""class="Calçados">Infantil</a>
+       <a href="" class="Esportes">Esportes</a>
+       <a href="" class="Esportes">Mundo Adidas</a>
+       <a href=""class="Dia">Dia dos namorados</a>
     </nav>
-
 </body>
 </html>
+   
